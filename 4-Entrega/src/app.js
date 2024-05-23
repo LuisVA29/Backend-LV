@@ -5,7 +5,7 @@ const productsRoutes = require("./routes/products.routes.js");
 const cartsRoutes = require("./routes/carts.routes.js");
 const viewRoutes = require("./routes/views.routes.js");
 
-PORT = 8080;
+PORT = 8081;
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));

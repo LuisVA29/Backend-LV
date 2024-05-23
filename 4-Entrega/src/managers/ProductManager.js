@@ -60,7 +60,7 @@ class ProductManager {
         throw new Error("Ingresa una categoria correctamente");
       }
 
-      if (!typeof status == "boolean") {
+      if (!typeof variable == "boolean") {
         throw new Error(
           "Ingresa un valor booleano correcto si esta disponible o no a status"
         );
@@ -85,7 +85,7 @@ class ProductManager {
 
       allProducts.push(producto);
       await fs.writeFile(this.pathDB, JSON.stringify(allProducts));
-      return "Se subio el producto correctamente";
+      return producto;
     } catch (error) {
       throw Error(error);
     }
@@ -94,18 +94,17 @@ class ProductManager {
   async getProductById(id) {
     try {
       const products = await this.getProducts();
-      const index = products.findIndex((e) => e.id === id);
-
-      if (index === -1) {
+      const productId = products.find((e) => e.id === id);
+      if (!productId) {
         throw new Error("Producto no encontrado");
       } else {
+        let index = products.indexOf(productId);
         return products[index];
       }
     } catch (error) {
       throw Error(error);
     }
   }
-
   async updateProduct(id, field, edit) {
     try {
       const products = await this.getProducts();
