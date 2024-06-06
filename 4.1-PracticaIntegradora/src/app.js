@@ -7,7 +7,7 @@ const viewRoutes = require("./routes/views.routes");
 const messagesRoutes = require("./routes/messages.routes");
 const mongoose = require("mongoose");
 
-PORT = 8080;
+PORT = 8081;
 API_PREFIX = "api";
 
 const app = express();

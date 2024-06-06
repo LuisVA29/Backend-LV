@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Zapatillas Air Force 1 Mid '07 De Hombre",
+    "description": "CAPELLADA CUERO 100% SUELA CAUCHO 100% FORRO POLIÉSTER 100% CONSTITUCIÓN PEGADO COSIDO",
+    "price": 190,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714618867/CW2289-111_PHSRH000-3144_736x736_cfqika.jpg"
+    ],
+    "stock": 25,
+    "code": "478567",
+    "status": true,
+    "category": "Nike"
+  },
+  {
+    "title": "Zapatillas Blazer Mid '77 Pro Club de Hombre",
+    "description": "CAPELLADA CUERO 57% TEXTIL 43% SUELA CAUCHO 100% FORRO POLIESTER 100% CONST VULCANIZADO COSIDO",
+    "price": 180,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714618964/DQ7673-100_736x736_bo1ewy.jpg"
+    ],
+    "stock": 12,
+    "code": "345678",
+    "status": true,
+    "category": "Nike"
+  },
+  {
+    "title": "Zapatillas Run Star Motion de Hombre",
+    "description": "CAPELLADA 100% ALGODON FORR 100% POLIESTER PLANT 100% POLIESTER SUE 100% CAUCHO",
+    "price": 140,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714619010/171546C_736x736_j4ssoy.jpg"
+    ],
+    "stock": 10,
+    "code": "326783",
+    "status": true,
+    "category": "Converse"
+  },
+  {
+    "title": "Zapatillas Nike Dunk Low Retro De Hombre",
+    "description": "CAPELLADA CUERO 100% SUELA CAUCHO 100% FORRO POLIÉSTER 100%",
+    "price": 170,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714619073/DD1391-100_31b3fdf4-b4fb-4f99-84af-a41dc19dcc0e_736x736_vmdj2u.jpg"
+    ],
+    "stock": 7,
+    "code": "659802",
+    "status": true,
+    "category": "Nike"
+  },
+  {
+    "title": "Zapatillas Converse Chuck Taylor All Star Platform de Hombre",
+    "description": "CAPELLADA TEXTIL ALGODÓN 100% FORRO TEXTIL ALGODÓN 100% PLANT TEXTIL ALGODÓN 100% SUE CAUCHO",
+    "price": 105,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714619251/166584C_736x736_tdhfec.jpg"
+    ],
+    "stock": 25,
+    "code": "785268",
+    "status": true,
+    "category": "Converse"
+  },
+  {
+    "title": "Zapatillas Converse X Dia de Muertos Run Star Hike de Hombre",
+    "description": "CAPELLADA 100% ALGODON FORRO 100% POLIESTER PLANTILLA 100% POLIESTER SUELA 100% CAUCHO",
+    "price": 135,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714619344/a05664c_a_107x1_white_rmcytr.jpg"
+    ],
+    "stock": 8,
+    "code": "968457",
+    "status": true,
+    "category": "Converse"
+  },
+  {
+    "title": "Zapatillas Nike Dunk Low Se Ncps De Hombre",
+    "description": "CAPELLADA: CUERO 68% TEXTIL 32% SUELA CAUCHO 100% POLIÉSTER 100% CONST PEGADO-COSIDO",
+    "price": 195,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714619393/FJ5429-133_736x736_gbxodb.jpg"
+    ],
+    "stock": 20,
+    "code": "452657",
+    "status": true,
+    "category": "Nike"
+  },
+  {
+    "title": "Zapatillas Air Jordan 1 Low G De Hombre",
+    "description": "CAPELLADA CUERO 100% SUELA CAUCHO 100% FORRO POLIESTER 66% POLIURETANO 34% CONST PEGADO CONTRAAGUA",
+    "price": 218,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714619503/dd9315-101-phsrh000-1000_jbmeyz.jpg"
+    ],
+    "stock": 17,
+    "code": "632147",
+    "status": true,
+    "category": "Nike"
+  },
+  {
+    "title": "Zapatillas Gazelle de Hombre",
+    "description": "CAPELLADA 80% CUERO 20% SINTÉTICO FORRO 80% TEXTIL 20% SINTÉTICO SUELA 100% GOMA/CAUCHO",
+    "price": 135,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714619564/IG6199_736x736_n6xl0a.jpg"
+    ],
+    "stock": 25,
+    "code": "584792",
+    "status": true,
+    "category": "Adidas"
+  },
+  {
+    "title": "Zapatillas Adi2000 de Hombre",
+    "description": "CAPELLADA 80% CUERO 20% TEXTIL FORRO 100% TEXTIL SUELA: 100% CAUCHO",
+    "price": 170,
+    "thumbnail": [
+      "https://res.cloudinary.com/dfamqux3j/image/upload/v1714619607/IG6779_1_FOOTWEAR_Photography_Side-Lateral-Center-View_transparent_736x736_fgweoc.jpg"
+    ],
+    "stock": 25,
+    "code": "654642",
+    "status": true,
+    "category": "Adidas"
+  }
+]
