@@ -10,8 +10,10 @@ const mongoose = require("mongoose");
 const mongoStore = require("connect-mongo");
 const cookieParser = require("cookie-parser");
 const session = require("express-session");
+const initializePassport = require("./config/passport.config");
+const passport = require("passport");
 
-PORT = 8081;
+PORT = 8080;
 API_PREFIX = "api";
 MONGO_URL =
   "mongodb+srv://coder_53160:coder2024@clustercoder.jf5ogqv.mongodb.net/?retryWrites=true&w=majority";
@@ -53,6 +55,10 @@ const server = app.listen(PORT, () => {
   console.log("SERVER FUNCIONANDO");
 });
 const io = require("socket.io")(server);
+
+initializePassport();
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.engine("handlebars", handlebars.engine());
 app.set("views", path.join(`${__dirname}/views`));
